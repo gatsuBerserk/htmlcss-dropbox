@@ -37,7 +37,6 @@ header img{
 .help{
     text-align: center;
     width: 25%;
-    /* /* border: 2px solid blue; */
 }
 
 header .help a {
@@ -51,6 +50,7 @@ header .help a:hover{
 } 
 
 .btn{
+    font-size: 1rem;
     background-color: rgb(0, 97, 255); 
     color: white;
     padding: 5px 20px; 
@@ -61,3 +61,37 @@ header .help a:hover{
     background-color: red;
 
 }
+
+section#jumbo{
+    min-height: 800px;
+    background-color: rgb(180, 208, 231);
+}
+
+section .jumbo-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+section#jumbo #title{
+    /* border: 2px solid yellow; */
+    padding: 30px 0;
+    font-size: 8.2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.jumbo-wrapper #description{
+    width: 300px;
+} 
+
+#jumbo .btn{
+    margin: 20px 0  5px;
+} 
+
+section#jumbo p{
+    margin-bottom: 20px;
+}
+
+.icon{
+    font-size: 3rem;
+} 
