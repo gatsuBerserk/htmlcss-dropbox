@@ -31,7 +31,6 @@ header{
 section.general-container{ 
     border: 2px solid black;
     width: 60%;
-    height: 300px;
     margin: 0 auto;
 }
 
@@ -101,17 +100,67 @@ section#jumbo p{
 
 .icon{
     font-size: 3rem;
+}  
+
+section#offert h2{
+    font-size: 3rem;
+    margin: 30px 0 30px;
+}  
+
+section#offert .title{ 
+    padding: 15px; 
+    font-size: 1rem;
+    text-align: center; 
+    border-bottom: 1px solid silver;
+}
+
+section .input{
+    margin: 30px 0 30px;
+}
+.card{  
+    border: 1px solid black;
 } 
 
-
-section .section-title h3{
-    font-size: 3rem;
-
+.card{
+    width: calc((100% / 3) - 10px); 
 }
 
-.btn-radio{
-    padding-top: 10px;
+.card-items{
+    padding: 40px;
+} 
+
+.padding-items{
+    padding-bottom: 10px;
 }
 
+section#offert .item-title{  
+    padding-bottom: 10px;
+    font-size: 2rem;
+} 
 
+section#offert .price{ 
+    font-weight: bold;
+}
+
+section#offert ul li{
+    line-height: 30px;
+    list-style: none;
+} 
+
+section#offert .month{
+    display: block;
+} 
+
+section#offert .options{ 
+    line-height: 30px;
+    padding-bottom: 20px;
+} 
+
+.padding-items{
+    padding-bottom: 20px;
+} 
+
+.buy{
+    padding-top: 20px;
+}
 
