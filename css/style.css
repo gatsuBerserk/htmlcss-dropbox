@@ -29,9 +29,10 @@ header{
 } 
 
 section.general-container{ 
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto; 
+    margin-top: 100px;
 }
 
 
@@ -103,6 +104,10 @@ section#jumbo p{
     font-size: 3rem;
 }  
 
+section{
+    margin-top: 200px;
+}
+
 section#offert h2{
     font-size: 3rem;
     margin: 30px 0 30px;
@@ -118,9 +123,9 @@ section#offert .title{
 section .input{
     margin: 30px 0 30px;
 }
-.card{  
+/* .card{  
     border: 1px solid black;
-} 
+}  */
 
 .card{
     width: calc((100% / 3) - 10px); 
@@ -175,8 +180,36 @@ section#offert .card-full{
     display: inline;
 }  
 
-section#offert .card-full>.title{ 
+.title, .card{ 
     border:1px solid silver;
 }
+
+section#partner img{
+    background-position: center;
+    width: 60%;
+} 
+
+section#partner .info .title{
+    font-size: 2rem;
+}
+
+.foto{
+    width: 100%; 
+} 
+
+.card{ 
+    width: 33%;
+    display: inline-block; 
+    margin:0
+}
+
+.card-img{
+    width: 100%;
  
+} 
+
+.margin{
+    margin:30px;
+}
+
 
