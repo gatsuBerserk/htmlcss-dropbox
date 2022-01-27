@@ -19,11 +19,6 @@
     float: right;
 } 
 
-.transform{
-    top:50%; 
-    left: 50%;
-    transform: translate(-50px, -50%);
-}
 
 header{
     width: 95%;
@@ -35,7 +30,6 @@ header{
 } 
 
 section.general-container{ 
-    /* border: 2px solid black; */
     width: 60%;
     margin: 0 auto; 
     margin-top: 100px;
@@ -136,9 +130,6 @@ section#offert .title{
 section .input{
     margin: 30px 0 30px;
 }
-/* .card{  
-    border: 1px solid black;
-}  */
 
 .card{
     width: calc((100% / 3) - 10px); 
@@ -264,10 +255,7 @@ section#university .university-box {
     margin: 0;
 }
 
-/* section#university .university-box .box-left{ 
-    border: 3px solid palevioletred;
-    width: calc(50% / 2);
-}  */
+
 
 section#university .box-left, .box-right  { 
     width: calc(50% / 2); 
@@ -280,13 +268,6 @@ section#university .university-box #designt, #asu, #florida,
     height: 250px;
     
 } 
-
-/* section#university .box-right{ 
-    border: 1px solid black;
-    background-color: peru; 
-    width: calc(50% / 2); 
-    height: 500px;
-}  */
 
 section#university .middle-box{ 
     width: calc(100% / 2);
@@ -398,7 +379,62 @@ section#bottom-jumbo .btn{
     background-color: white;
     color: black; 
     margin-top: 100px;
+} 
+
+section#bottom-jumbo .btn:hover{
+    background-color: red;
 }
+
+section#faq{
+    border: none;
+}
+
+section#faq .faq-title h2{ 
+    margin-bottom: 30px;
+    font-size: 3rem; 
+
+} 
+
+section#faq .request ul li{
+    border-bottom: 1px solid silver; 
+    line-height: 70px; 
+    list-style: none;
+    
+
+}  
+
+footer .info{ 
+    border: 2px solid black;
+    height: 300px;
+    width: 100%; 
+    background-color: black;
+} 
+
+footer .wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer .info .liste h5{
+    color: white;
+    font-size: 2rem;
+}
+
+
+footer .info .liste ul li{  
+    line-height: 30px;
+    list-style: none;
+    color: white;
+} 
+
+footer section#info .liste .margin{
+    margin-right: 42px;
+}
+
+
+
+
+
 
 
 
