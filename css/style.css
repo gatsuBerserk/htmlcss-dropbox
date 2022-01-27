@@ -176,23 +176,37 @@ section#offert .options{
     padding-top: 20px;
 }
 
-section#offert .card-full{ 
+section#offert .card-full{  
     margin-top: 30px;
     width: 100%;
 }  
 
 .inline{
     display: inline;
-}  
+} 
+
+.card-items{
+    border: 1px solid silver;
+}
 
 .title, .card{ 
     border:1px solid silver;
 }
 
 section#partner img{
-    background-position: center;
-    width: 60%;
+    background-position: center; 
+    margin-left: 30px;
+    width: calc(100% / 2);
 } 
+section#partner .title, 
+section.foto .card{  
+    border: none;
+
+}  
+
+section#partner .info {
+    width: calc(50% - 90px);
+}
 
 section#partner .info .title{
     font-size: 2rem;
