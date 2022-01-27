@@ -294,7 +294,8 @@ section#university .middle-box{
 
 } 
 
-section#university #designt {
+section#university #designt { 
+    border: 10px solid rgb(208, 233, 205);
     background-image: url(../img/designit.svg); 
     background-position: center;
     background-repeat: no-repeat;
@@ -362,12 +363,41 @@ section#university #channel{
 } 
 
 section#university .middle-box img{
-    width: 50%; 
+    width: 15%; 
     margin: 50px;
 } 
 
 section#university .middle-box p{
     margin: 50px;
+} 
+
+section#bottom-jumbo{ 
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    background-color:rgb(180, 208, 231);
+
+} 
+
+section#bottom-jumbo .text-jumbo-bottom span{
+    margin-top: 100px; 
+    width: 50%;
+    font-size: 3rem; 
+    display: inline-block;
+
+}
+
+section#bottom-jumbo .text-jumbo-bottom{
+    vertical-align: middle;
+    width: 60%;
+    margin: 0 auto;
+} 
+
+section#bottom-jumbo .btn{
+    display: inline-block;
+    background-color: white;
+    color: black; 
+    margin-top: 100px;
 }
 
 
