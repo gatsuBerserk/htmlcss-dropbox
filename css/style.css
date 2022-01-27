@@ -113,7 +113,8 @@ section{
     margin-top: 20px;
 }
 
-section#offert h2{ 
+section#offert h2, 
+section#partner h2{ 
     font-size: 3rem;
     margin: 350px 0 30px;
 }  
@@ -194,8 +195,6 @@ section#offert .card-full{
 }
 
 section#partner img{
-    background-position: center; 
-    margin-left: 30px;
     width: calc(100% / 2);
 } 
 section#partner .title, 
@@ -210,6 +209,21 @@ section#partner .info {
 
 section#partner .info .title{
     font-size: 2rem;
+} 
+
+section#partner .btn{ 
+    margin-top: 20px;
+    color: black;
+    background-color: white; 
+    border: 1px solid silver;
+}  
+
+section#partner h2{
+    margin:30px 0 50px;
+}
+
+section#partner .btn:hover{
+    background-color: yellow;
 }
 
 .foto{
