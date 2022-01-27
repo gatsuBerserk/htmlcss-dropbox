@@ -88,6 +88,11 @@ section#jumbo #title{
     text-align: left;
 }
 
+section#jumbo img{  
+    width: 50%; 
+    height: 70%;
+}
+
 .jumbo-wrapper #description{
     width: 300px;
 } 
@@ -105,12 +110,12 @@ section#jumbo p{
 }  
 
 section{
-    margin-top: 200px;
+    margin-top: 20px;
 }
 
-section#offert h2{
+section#offert h2{ 
     font-size: 3rem;
-    margin: 30px 0 30px;
+    margin: 350px 0 30px;
 }  
 
 section#offert .title{ 
