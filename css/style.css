@@ -4,7 +4,7 @@
     box-sizing: border-box; 
     font-family: 'Open Sans', sans-serif;
 }
-
+/* General setting */
 .clearfix::after{
     content: "";
     display: table;
@@ -33,7 +33,9 @@
     transform: translate(-50%, -50%);
 }
 
+/* /General setting */
 
+/* Top menu */
 header{
     width: 95%;
     height: 100px;
@@ -83,7 +85,9 @@ header .help a:hover{
     background-color: red;
 
 }
+/* /Top menu */
 
+/* Jumbo */
 section#jumbo{
     min-height: 800px;
     background-color: rgb(180, 208, 231);
@@ -95,7 +99,6 @@ section .jumbo-wrapper{
 }
 
 section#jumbo #title{
-    /* border: 2px solid yellow; */
     padding: 30px 0;
     font-size: 8.2rem;
     font-weight: bold;
@@ -125,8 +128,11 @@ section#jumbo p{
 
 section{
     margin-top: 20px;
-}
+} 
 
+/* /jumbo */
+
+/* Offert */
 section#offert h2, 
 section#multi-box .items-title,
 section#business .item-title{ 
@@ -218,7 +224,11 @@ section#multi-box .card {
 
 section#partner .info {
     width: calc(50% - 90px);
-}
+} 
+
+/* /Offert */ 
+
+/* Partner */
 
 section#partner .info .title{
     font-size: 2rem;
@@ -243,6 +253,9 @@ section#partner .btn:hover{
     width: 100%; 
 } 
 
+/* /Partner */
+
+/* Business */
 .card{ 
     width: 33%;
     display: inline-block; 
@@ -261,7 +274,11 @@ section#partner .btn:hover{
 section#multi-box .items-title,
 section#business .items-title{
     margin: 50px 0 30px;
-} 
+}  
+
+/* Business */ 
+
+/* University */
 
 section#university .university-box {
     width: 100%;
@@ -371,6 +388,9 @@ section#university .middle-box p{
     margin: 50px;
 } 
 
+/* /University */
+
+/* Faq and footer */
 section#bottom-jumbo{ 
     margin: 0;
     width: 100%;
